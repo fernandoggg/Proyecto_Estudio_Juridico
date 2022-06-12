@@ -101,7 +101,7 @@ section .area-administrativo {
     grid-row: 1;
 }
 section .area-administrativo:hover {
-    transform: scale(1.4);
+    transform: scale(1.35);
 }
 section .area-civil {
     padding: 5px 5px;
@@ -117,7 +117,7 @@ section .area-civil {
     grid-row: 1;
 }
 section .area-civil:hover {
-    transform: scale(1.4);
+    transform: scale(1.35);
 }
 section .area-familia {
     padding: 5px 5px;
@@ -133,7 +133,7 @@ section .area-familia {
     grid-row: 2;
 }
 section .area-familia:hover {
-    transform: scale(1.4);
+    transform: scale(1.35);
 }
 section .area-laboral {
     padding: 5px 5px;
@@ -149,7 +149,7 @@ section .area-laboral {
     grid-row: 2;
 }
 section .area-laboral:hover {
-    transform: scale(1.4);
+    transform: scale(1.35);
 }
 section .area-penal {
     padding: 5px 5px;
@@ -165,7 +165,7 @@ section .area-penal {
     grid-row: 2;
 }
 section .area-penal:hover {
-    transform: scale(1.4);
+    transform: scale(1.35);
 }
 .area-titulo-margenes {
  margin-top: 15px;   
