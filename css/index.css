@@ -335,6 +335,7 @@ form textarea {
     }
 @media screen and (max-width: 850px) {
     /* responsive area de trabajo */
+
         main .main-area {
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
