@@ -115,7 +115,7 @@ section .area-administrativo {
     margin: 2rem;
     padding: 5px 5px;
     background-color: white;
-    width: 250px;
+    width: 280px;
     height: 270px;
     opacity: 0.7;
     font-size: 12px;
@@ -132,7 +132,7 @@ section .area-civil {
     margin: 2rem;
     padding: 5px 5px;
     background-color: white;
-    width: 250px;
+    width: 280px;
     height: 270px;
     opacity: 0.7;
     font-size: 12px;
@@ -149,7 +149,7 @@ section .area-familia {
     margin: 2rem;
     padding: 5px 5px;
     background-color: white;
-    width: 250px;
+    width: 280px;
     height: 270px;
     opacity: 0.7;
     font-size: 12px;
@@ -166,7 +166,7 @@ section .area-laboral {
     margin: 2rem;
     padding: 5px 5px;
     background-color: white;
-    width: 250px;
+    width: 280px;
     height: 270px;
     opacity: 0.7;
     font-size: 12px;
@@ -183,7 +183,7 @@ section .area-penal {
     margin: 2rem;
     padding: 5px 5px;
     background-color: white;
-    width: 250px;
+    width: 280px;
     height: 270px;
     opacity: 0.7;
     font-size: 12px;
