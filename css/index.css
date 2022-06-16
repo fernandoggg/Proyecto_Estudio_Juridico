@@ -14,7 +14,7 @@ body {
 .bg-light {
     background-color: #457B9D;
 }
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+.navbar-nav .nav-link.active, .show>.nav-link {
     color: white;
 }
 .main-header {
