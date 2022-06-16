@@ -11,13 +11,34 @@ ol, ul {
 body {
     font-family: 'Montserrat', sans-serif;
 }
+.bg-light {
+    background-color: #457B9D;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}
 .main-header {
     color: rgb(255, 255, 255);
     background-color: #457B9D;
     font-weight: 600;
     padding: 1.5rem;
 }
-.main-header__nav {
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.header__logo {
+    padding-left: 5%;
+}
+@media screen and (max-width: 992px)  {
+    .navbar-collapse {
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+}
+
+/* .main-header__nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,7 +54,7 @@ body {
     opacity: 0.9;
     background-color: #5a849e;
     border-radius: 5px;
-}
+} */
 .menu-link {
     display: block;
     flex-basis: 18%;
@@ -82,51 +103,54 @@ main {
     font-weight: 700;
 }
 /* estilos main area */
-.main-area {
+/* .main-area {
     min-height: 628px;
     display: grid;
     grid-template-columns: 1fr 3fr 2fr 2fr 3fr 1fr ;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     align-items: center;
-}
+}  */
 section .area-administrativo {
+    margin: 2rem;
     padding: 5px 5px;
     background-color: white;
     width: 250px;
-    height: 230px;
+    height: 270px;
     opacity: 0.7;
     font-size: 12px;
     text-align: center;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    grid-column: 2/4 ;
-    grid-row: 1;
+    /* grid-column: 2/4 ;
+    grid-row: 1; */
 }
 section .area-administrativo:hover {
-    transform: scale(1.35);
+    transform: scale(1.1);
 }
 section .area-civil {
+    margin: 2rem;
     padding: 5px 5px;
     background-color: white;
     width: 250px;
-    height: 230px;
+    height: 270px;
     opacity: 0.7;
     font-size: 12px;
     text-align: center;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    grid-column: 4/6 ;
-    grid-row: 1;
+    /* grid-column: 4/6 ;
+    grid-row: 1; */
 }
 section .area-civil:hover {
-    transform: scale(1.35);
+    transform: scale(1.1);
 }
 section .area-familia {
+    margin: 2rem;
     padding: 5px 5px;
     background-color: white;
     width: 250px;
-    height: 230px;
+    height: 270px;
     opacity: 0.7;
     font-size: 12px;
     text-align: center;
@@ -136,13 +160,14 @@ section .area-familia {
     grid-row: 2;
 }
 section .area-familia:hover {
-    transform: scale(1.35);
+    transform: scale(1.1);
 }
 section .area-laboral {
+    margin: 2rem;
     padding: 5px 5px;
     background-color: white;
     width: 250px;
-    height: 230px;
+    height: 270px;
     opacity: 0.7;
     font-size: 12px;
     text-align: center;
@@ -152,13 +177,14 @@ section .area-laboral {
     grid-row: 2;
 }
 section .area-laboral:hover {
-    transform: scale(1.35);
+    transform: scale(1.1);
 }
 section .area-penal {
+    margin: 2rem;
     padding: 5px 5px;
     background-color: white;
     width: 250px;
-    height: 230px;
+    height: 270px;
     opacity: 0.7;
     font-size: 12px;
     text-align: center;
@@ -168,7 +194,7 @@ section .area-penal {
     grid-row: 2;
 }
 section .area-penal:hover {
-    transform: scale(1.35);
+    transform: scale(1.1);
 }
 .area-titulo-margenes {
  margin-top: 15px;   
@@ -181,9 +207,10 @@ section .area-penal:hover {
     height: 50px;
 }
 /* estilos main porfolio */
-.main-portfolio {
+.main-portfolio { /*.main-portfolio */
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 #casos-titulo {
@@ -206,6 +233,8 @@ section .area-penal:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+
 }
 #nostros-titulo {
     text-align: center;
@@ -214,10 +243,12 @@ section .area-penal:hover {
     font-size: 26px;
 }
 .nosotros-item {
+
     padding: 20px 20px 20px 20px;
     background-color: white;
     opacity: 0.7;
     border-radius: 15px;
+    max-width: 1200px;
 }
 .nosotros-item p {
     font-size: 18px;
@@ -225,8 +256,10 @@ section .area-penal:hover {
     padding-bottom: 10px;
 }
 /* estilos main contacto */
-main {
+.main-contacto {
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 .contact-section {
     padding: 10px;
@@ -238,28 +271,36 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
+    max-width: 1200px;
 }
 section .form-user {
     padding: 10px;
     font-size: 20px;
     text-align: left;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-around;
 }
 section .form-datos {
     padding: 10px;
-    font-size: 16px;
-    text-align: left;
+    font-size: 14px;
+    text-align: center;
+
 }
 form input { 
-    margin: 10px;
+    margin: 15px;
     width: 60%;
     height: 25px; 
-    font-size: 18px;
+    font-size: 16px;
 }
 form textarea { 
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 15px;
+    width: 80%;
+}
+form label { 
+    margin-left: 15px;
     width: 80%;
 }
 @media screen and (max-width: 720px) {
@@ -338,18 +379,23 @@ form textarea {
     }
 @media screen and (max-width: 850px) {
     /* responsive area de trabajo */
-
-        main .main-area {
+        .main__area {
+            min-height: 900px;
+        }
+        /* main .main-area {
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
-        }
+            gap: 2rem;
+        } */
         section .area-administrativo {
             grid-column: 1/2 ;
             grid-row: 1;
+            margin-top: 1rem;
         }
         section .area-civil {
             grid-column: 2/3 ;
             grid-row: 1;
+            margin-top: 1rem;
         }
         section .area-familia {
             grid-column: 1/2 ;
@@ -366,11 +412,11 @@ form textarea {
     }
 @media screen and (max-width: 550px) {
     /* responsive area de trabajo */
-        main .main-area {
+        /* main .main-area {
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
             gap: 2rem 2rem;
-        }
+        } */
         section .area-administrativo {
             grid-column: 1 ;
             grid-row: 1;
