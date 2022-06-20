@@ -246,7 +246,7 @@ section .form-user {
     padding: 10px;
     font-size: 20px;
     text-align: left;
-    min-width: 400px;
+    min-width: 390px;
     display: flex;
     justify-content: space-around;
 }
