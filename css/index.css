@@ -1,4 +1,5 @@
-* {
+/* Normalize */
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -10,11 +11,9 @@ ol, ul {
 }
 body {
     font-family: 'Montserrat', sans-serif;
-}
-/* ediciones en bootstrap */
-.bg-light {
-    background-color: #457B9D;
-}
+} */
+/* Ediciones en header con bootstrap */
+/* 
 .navbar-nav .nav-link.active, .show>.nav-link {
     color: white;
 }
@@ -45,9 +44,9 @@ body {
     color: rgb(255, 255, 255);
     padding: 0.8rem 0.8rem;
     font-size: 14px;
-}
+} */
 /* Footer */
-footer {
+/* footer {
     background-color: #457B9D;
     font-weight: 600;
     font-size: 14px;
@@ -58,9 +57,9 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     color: white;
-}
+} */
 /* estilos main index */
-main {
+/* main {
     background-image: url('../img/fondo.png');
     background-size: cover;
     width: 100%;
@@ -80,7 +79,7 @@ main {
 }
 .main__title {
     font-weight: 700;
-}
+} */
 /* estilos main area */
 section .area-administrativo {
     margin: 2rem;
@@ -174,7 +173,7 @@ section .area-penal:hover {
     height: 50px;
 }
 /* estilos main porfolio */
-.main-portfolio { 
+/* .main-portfolio { 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -194,9 +193,9 @@ section .area-penal:hover {
     font-size: 18px;
     text-align: left;
     padding-bottom: 10px;
-}
+} */
 /* estilos main nosotros */
-.main-nosotros{
+/* .main-nosotros{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -221,7 +220,7 @@ section .area-penal:hover {
     font-size: 18px;
     text-align: left;
     padding-bottom: 10px;
-}
+} */
 /* estilos main contacto */
 .main-contacto {
     padding: 20px 0;
@@ -272,13 +271,13 @@ form label {
             flex-direction: column;
             gap: 2rem;
         }
-        .footer-section {
+        /* .footer-section {
             flex-direction: column;
             gap: 2rem;
         }
         .footer-contact {
             text-align: center;
-        }
+        } */
     /* responsive main portfolio */
         .main-portfolio {
             flex-direction: column;

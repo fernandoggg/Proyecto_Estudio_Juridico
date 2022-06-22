@@ -1,0 +1,24 @@
+/* Footer */
+footer {
+    background-color: #457B9D;
+    font-weight: 600;
+    font-size: 14px;
+    & .footer-section {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        color: white;
+    }
+}
+@media screen and (max-width: 720px) {
+    /* responsive footer */
+        .footer-section {
+            flex-direction: column;
+            gap: 2rem;
+            & .footer-contact {
+                text-align: center;
+            }
+        }
+
+}

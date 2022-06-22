@@ -1,0 +1,24 @@
+// Portfolio
+.main-portfolio { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    & .casos-detalle {
+        padding: 1rem 1rem;
+        background-color: white;
+        opacity: 0.7;
+        border-radius: 15px;
+        & #casos-titulo {
+            text-align: center;
+            font-size: 22px;
+        }
+        & .casos-item {
+            font-size: 18px;
+            text-align: left;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+
