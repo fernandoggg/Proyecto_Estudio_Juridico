@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/fernandoggg/Proyecto_Estudio_Juridico#readme",
   "devDependencies": {
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
   }
 }
