@@ -1,15 +1,15 @@
-/* Misc */
+                                                    /* Misc */
 @import './misc/variables';
 @import './misc/normalize';
 @import './misc/mixins';
-
-/* Partials */
+                                                    /* Partials */
 @import './partials/header';
 @import './partials/footer';
-
-/* Views */
+                                                    /* Views */
 @import './views/home';
 @import './views/areas';
 @import './views/portfolio';
 @import './views/nosotros';
 @import './views/contacto';
+                                                    // Media Query
+@import './misc/media'

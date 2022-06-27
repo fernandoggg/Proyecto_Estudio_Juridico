@@ -1,4 +1,4 @@
-/* Normalize */
+                                                    /* Normalize */
 /* * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ ol, ul {
 body {
     font-family: 'Montserrat', sans-serif;
 } */
-/* Ediciones en header con bootstrap */
+                                            /* Ediciones en header con bootstrap */
 /* 
 .navbar-nav .nav-link.active, .show>.nav-link {
     color: white;
@@ -45,7 +45,7 @@ body {
     padding: 0.8rem 0.8rem;
     font-size: 14px;
 } */
-/* Footer */
+                                                        /* Footer */
 /* footer {
     background-color: #457B9D;
     font-weight: 600;
@@ -58,7 +58,7 @@ body {
     align-items: center;
     color: white;
 } */
-/* estilos main index */
+                                            /* estilos main index */
 /* main {
     background-image: url('../img/fondo.png');
     background-size: cover;
@@ -80,8 +80,8 @@ body {
 .main__title {
     font-weight: 700;
 } */
-/* estilos main area */
-section .area-administrativo {
+                                                /* estilos main area */
+/* section .area-administrativo {
     margin: 2rem;
     padding: 5px 5px;
     background-color: white;
@@ -171,8 +171,8 @@ section .area-penal:hover {
 .area-logo {
     width: 50px;
     height: 50px;
-}
-/* estilos main porfolio */
+} */
+                                                /* estilos main porfolio */
 /* .main-portfolio { 
     display: flex;
     flex-direction: row;
@@ -194,7 +194,7 @@ section .area-penal:hover {
     text-align: left;
     padding-bottom: 10px;
 } */
-/* estilos main nosotros */
+                                        /* estilos main nosotros */
 /* .main-nosotros{
     display: flex;
     flex-direction: row;
@@ -209,7 +209,6 @@ section .area-penal:hover {
     font-size: 26px;
 }
 .nosotros-item {
-
     padding: 20px 20px 20px 20px;
     background-color: white;
     opacity: 0.7;
@@ -221,8 +220,8 @@ section .area-penal:hover {
     text-align: left;
     padding-bottom: 10px;
 } */
-/* estilos main contacto */
-.main-contacto {
+                                            /* estilos main contacto */
+/* .main-contacto {
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -264,125 +263,4 @@ form textarea {
 form label { 
     margin-left: 15px;
     width: 80%;
-}
-@media screen and (max-width: 720px) {
-    /* responsive header y footer */
-        .main-header__nav {
-            flex-direction: column;
-            gap: 2rem;
-        }
-        /* .footer-section {
-            flex-direction: column;
-            gap: 2rem;
-        }
-        .footer-contact {
-            text-align: center;
-        } */
-    /* responsive main portfolio */
-        .main-portfolio {
-            flex-direction: column;
-            gap: 2rem 2rem;
-        }
-        .casos-detalle {
-            margin: 1rem 1rem;
-        }
-    /* responsive nosotros */
-        .main-nosotros{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            gap: 2rem 2rem;
-        }
-        .nosotros-item {
-            margin: 1rem 1rem;
-        }
-    /* responsive contactenos */
-        .contact-section {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            margin: 10px 10px;
-        }
-        section .form-user {
-            padding: 10px;
-            text-align: center;
-            gap: 1rem;
-        }
-        section .form-datos {
-            padding: 10px;
-            text-align: center;
-            gap: 1rem;
-        }
-        form input { 
-            margin: 10px;
-            width: 65%;
-            height: 25px; 
-            font-size: 18px;
-            gap: 1rem;
-        }
-        form textarea { 
-            margin: 10px;
-            width: 70%;
-            gap: 1rem;
-        }
-        /* as */
-        .form-input {
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            gap: 1rem;
-        }
-    }
-@media screen and (max-width: 850px) {
-    /* responsive area de trabajo */
-        .main__area {
-            min-height: 900px;
-        }
-        section .area-administrativo {
-            grid-column: 1/2 ;
-            grid-row: 1;
-            margin-top: 1rem;
-        }
-        section .area-civil {
-            grid-column: 2/3 ;
-            grid-row: 1;
-            margin-top: 1rem;
-        }
-        section .area-familia {
-            grid-column: 1/2 ;
-            grid-row: 2;
-        }
-        section .area-laboral {
-            grid-column: 2/3 ;
-            grid-row: 2;
-        }
-        section .area-penal {
-            grid-column: 1/3 ;
-            grid-row: 3;
-        }
-    }
-@media screen and (max-width: 550px) {
-    /* responsive area de trabajo */
-        section .area-administrativo {
-            grid-column: 1 ;
-            grid-row: 1;
-            margin-top: 2rem;
-        }
-        section .area-civil {
-            grid-column: 1;
-            grid-row: 2;
-        }
-        section .area-familia {
-            grid-column: 1;
-            grid-row: 3;
-        }
-        section .area-laboral {
-            grid-column: 1;
-            grid-row: 4;
-        }
-        section .area-penal {
-            grid-column: 1;
-            grid-row: 5;
-            margin-bottom: 2rem;
-        }
-    }
+} */ 
