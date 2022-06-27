@@ -260,31 +260,31 @@ footer {
     .main-nosotros .nosotros-item {
       margin: 1rem 1rem; }
   /* responsive contactenos */
-  .contact-section {
+  .main-contacto .contact-section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: 10px 10px; }
-    .contact-section section .form-user {
+    .main-contacto .contact-section section .form-user {
       padding: 10px;
       text-align: center;
       gap: 1rem; }
-      .contact-section section .form-user form input {
+      .main-contacto .contact-section section .form-user form input {
         margin: 10px;
         width: 65%;
         height: 25px;
         font-size: 18px;
         gap: 1rem; }
-      .contact-section section .form-user form textarea {
+      .main-contacto .contact-section section .form-user form textarea {
         margin: 10px;
         width: 70%;
         gap: 1rem; }
-      .contact-section section .form-user .form-input {
+      .main-contacto .contact-section section .form-user .form-input {
         padding-top: 1rem;
         padding-bottom: 1rem;
         gap: 1rem; }
-    .contact-section section .form-datos {
+    .main-contacto .contact-section section .form-datos {
       padding: 10px;
       text-align: center;
       gap: 1rem; } }
