@@ -9,7 +9,7 @@ ul {
     list-style-type: none;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--$font-principal);
 }
 main {
     background-image: url('../img/fondo.png');

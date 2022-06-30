@@ -5,18 +5,18 @@
     justify-content: space-around;
     align-items: center;
     & .casos-detalle {
-        padding: 1rem 1rem;
+        padding: $spacing-xsmall $spacing-xsmall;
         background-color: white;
         opacity: 0.7;
         border-radius: 15px;
         & #casos-titulo {
             text-align: center;
-            font-size: 22px;
+            font-size: $text-medium;
         }
         & .casos-item {
-            font-size: 18px;
+            font-size: $text-base;
             text-align: left;
-            padding-bottom: 10px;
+            padding-bottom: $spacing-xsmall;
         }
     }
 }

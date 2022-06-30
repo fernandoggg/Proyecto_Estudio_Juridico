@@ -1,21 +1,21 @@
 .main-contacto {
-    padding: 20px 0;
+    padding: $spacing-small 0;
     display: flex;
     justify-content: center;
     .contact-section {
-        padding: 10px;
+        padding: $spacing-xsmall;
         background-color: white;
         opacity: 0.7;
         border-radius: 15px;
         text-align: center;
-        font-size: 20px;
+        font-size: $text-medium;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         max-width: 1200px;
         .form-user {
-            font-size: 20px;
+            font-size: $spacing-small;
             text-align: left;
             display: flex;
             justify-content: space-around;
@@ -23,7 +23,7 @@
                 margin: 15px;
                 width: 60%;
                 height: 25px; 
-                font-size: 16px;
+                font-size: $text-base;
             }
             textarea { 
                 margin: 15px;
@@ -36,8 +36,8 @@
         }
         .form-datos {
             .datos__detalles {
-                padding: 20px;
-                font-size: 14px;
+                padding: $spacing-small;
+                font-size: $text-small;
                 text-align: center;
             }
             }
