@@ -32,6 +32,13 @@
             label { 
                 margin-left: 15px;
                 width: 80%;
+                font-size: $text-base;
+                font-weight: 500;
+            }
+            .btn {
+                font-size: $text-base;
+                margin: 15px;
+                font-weight: 500;
             }
         }
         .form-datos {
@@ -39,6 +46,14 @@
                 padding: $spacing-small;
                 font-size: $text-xsmall;
                 text-align: center;
+                h2 {
+                    font-weight: 700;
+                    font-size: $text-base;
+                }
+                p {
+                    font-weight: 500;
+                    font-size: $text-small;
+                }
             }
             }
     }

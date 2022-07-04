@@ -54,6 +54,21 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     color: white; }
+    footer .footer-section .footer-contact {
+      margin: 2.4rem; }
+      footer .footer-section .footer-contact h3 {
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif; }
+      footer .footer-section .footer-contact p {
+        font-weight: 500;
+        font-family: "Montserrat", sans-serif; }
+    footer .footer-section .footer-rrss {
+      display: flex;
+      flex-direction: column;
+      font-family: "Montserrat", sans-serif; }
+      footer .footer-section .footer-rrss .logos-rrss {
+        display: flex;
+        flex-direction: row; }
 
 @media screen and (max-width: 720px) {
   /* responsive footer */
@@ -73,7 +88,7 @@ footer {
     background-color: white;
     opacity: 0.7;
     text-align: center;
-    font-size: 2.2em; }
+    font-size: 2.2rem; }
     .main-index .bio-detalle .main__title {
       font-weight: 700; }
 
@@ -87,7 +102,7 @@ footer {
     width: 280px;
     height: 280px;
     opacity: 0.7;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-align: center;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px; }
@@ -132,9 +147,9 @@ footer {
     border-radius: 15px; }
     .main-portfolio .casos-detalle #casos-titulo {
       text-align: center;
-      font-size: 2.2em; }
+      font-size: 2.2rem; }
     .main-portfolio .casos-detalle .casos-item {
-      font-size: 1.6em;
+      font-size: 1.6rem;
       text-align: left;
       padding-bottom: 1rem; }
 
@@ -153,9 +168,9 @@ footer {
       text-align: center;
       padding-top: 5px;
       padding-bottom: 28px;
-      font-size: 2.2em; }
+      font-size: 2.2rem; }
     .main-nosotros .main-section .nosotros-item #nosotros-txt {
-      font-size: 1.6em;
+      font-size: 1.6rem;
       text-align: left;
       padding-bottom: 1rem; }
 
@@ -169,7 +184,7 @@ footer {
     opacity: 0.7;
     border-radius: 15px;
     text-align: center;
-    font-size: 2.2em;
+    font-size: 2.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -184,17 +199,29 @@ footer {
         margin: 15px;
         width: 60%;
         height: 25px;
-        font-size: 1.6em; }
+        font-size: 1.6rem; }
       .main-contacto .contact-section .form-user textarea {
         margin: 15px;
         width: 80%; }
       .main-contacto .contact-section .form-user label {
         margin-left: 15px;
-        width: 80%; }
+        width: 80%;
+        font-size: 1.6rem;
+        font-weight: 500; }
+      .main-contacto .contact-section .form-user .btn {
+        font-size: 1.6rem;
+        margin: 15px;
+        font-weight: 500; }
     .main-contacto .contact-section .form-datos .datos__detalles {
       padding: 2rem;
-      font-size: 1.2em;
+      font-size: 1.2rem;
       text-align: center; }
+      .main-contacto .contact-section .form-datos .datos__detalles h2 {
+        font-weight: 700;
+        font-size: 1.6rem; }
+      .main-contacto .contact-section .form-datos .datos__detalles p {
+        font-weight: 500;
+        font-size: 1.4rem; }
 
 @media screen and (max-width: 720px) {
   /* responsive header y footer */

@@ -9,6 +9,26 @@ footer {
         flex-wrap: wrap;
         align-items: center;
         color: white;
+        .footer-contact {
+            margin: $spacing-medium;
+            h3 {
+                font-weight: 700;
+                font-family: $font-principal;
+            }
+            p {
+                font-weight: 500;
+                font-family: $font-principal;
+            }
+        }
+        .footer-rrss {
+            display: flex;
+            flex-direction: column;
+            font-family: $font-principal;
+            .logos-rrss {
+                display: flex;
+                flex-direction: row;
+            }
+        }
     }
 }
 @media screen and (max-width: 720px) {
