@@ -25,6 +25,12 @@ $size: (
         &:hover {
             transform: scale(1.1);
         }
+        h3 {
+            font-weight: 700;
+        }
+        p {
+            font-weight: 500;
+        }
     }
     .area-administrativo {
         @extend .area__cuadro;
