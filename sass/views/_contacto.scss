@@ -4,7 +4,7 @@
     justify-content: center;
     .contact-section {
         padding: $spacing-xsmall;
-        background-color: white;
+        background-color: $base;
         opacity: 0.7;
         border-radius: 15px;
         text-align: center;
@@ -39,6 +39,8 @@
                 font-size: $text-base;
                 margin: 15px;
                 font-weight: 500;
+                background-color: $primary;
+                color: $text-color;
             }
         }
         .form-datos {

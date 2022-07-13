@@ -6,7 +6,7 @@
     align-items: center;
     & .casos-detalle {
         padding: $spacing-xsmall $spacing-xsmall;
-        background-color: white;
+        background-color: $base;
         opacity: 0.7;
         border-radius: 15px;
         h2 {

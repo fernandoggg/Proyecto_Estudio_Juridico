@@ -14,7 +14,7 @@ $size: (
     .area__cuadro {
         margin: $spacing-small;
         padding: map-get($size, chico) map-get($size, chico);
-        background-color: white;
+        background-color: $base;
         width: 280px;
         height: 280px;
         opacity: 0.7;
