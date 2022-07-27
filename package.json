@@ -1,6 +1,7 @@
 {
   "name": "estudio-juridico---godoy-fernando-guillermo",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,8 +19,10 @@
     "url": "https://github.com/fernandoggg/Proyecto_Estudio_Juridico/issues"
   },
   "homepage": "https://github.com/fernandoggg/Proyecto_Estudio_Juridico#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
   "devDependencies": {
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.18"
+    "nodemon": "^2.0.19"
   }
 }
